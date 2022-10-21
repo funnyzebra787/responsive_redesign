@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="overall-header">
+      <h1>Personas and Storyboarding</h1>
+    </div>
+
+    <div class="section-header">
+      <b class="section-header-text">Background</b>
+    </div>
+    <hr>
+    <div class="section-body">
+      <ul class="non-bulleted-list">
+          Have you ever walked into a fast food restaurant, saw a long line, and then saw an ordering kiosk nearby? Did you walk to the kiosk, thinking it would be faster to order here?
+          Then you play around with the interface and eventually get to placing your order? Then you realize that I would have been faster just to order at the counter?
+          Then when you try to pick up your order, you don't know where to pick it up? In this project, I took a deep dive
+          into the tablet ordering interface at Ten One Tea House in Providence, RI. I wanted to learn about why people use
+          the interface, who typically uses the interface, why the interface is good/bad, and more relating to the user journey
+          for this specific interface. I learned many interesting things along the way, so keep reading on!
+        <li class="spaced-bullets">
+          <b>1)</b> Research and observe users' experience with the tablet ordering interface for Ten One Tea.
+        </li>
+        <li class="spaced-bullets">
+          <b>2)</b> Construct two personas using info gathered from talking with users of the interface. What the user thinks, feels, says, and does.
+        </li>
+        <li class="spaced-bullets">
+          <b>3)</b> Construct storyboard for a persona's user journey from start to end. Before using the interface, while using the interface, and after using the interface.
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <div class="section-header">
+      <b class="section-header-text">Interface Sketch</b>
+    </div>
+    <hr>
+    <div class="section-body">
+      <div class="image-div">
+        <img src="/assets/UIUX-2.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-3.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-4.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-5.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-6.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-7.jpg" alt="sketch of the interface" class="sketch-images">
+        <img src="/assets/UIUX-8.jpg" alt="sketch of the interface" class="sketch-images">
+      </div>
+      <div>
+        <ul class="non-bulleted-list">
+          <b>Caption:</b>
+          This interface is trying to solve the problem of long lines ordering at the counter in the store. If a
+          customer wants to avoid a line or just avoid talking their order to the cashier and potentially
+          miscommunicating. The key components are the menu, in which the user selects what item they want to add
+          to cart. Then the user can customize the item. Then the user can checkout their cart, review the order/add tip,
+          and pay using the card reader below the screen.
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="section-header">
+      <b class="section-header-text">Observations</b>
+    </div>
+    <hr>
+    <div class="section-body">
+      <div class="image-div">
+      </div>
+      <div>
+        <ul id="list-for-observations-questions">
+          <b style="font-size: 22px">USER 1:</b>
+          <li class="non-spaced-bullets">
+            No line at counter, and she walked directly to the ordering screen. Walked in with a friend who ordered
+            after her.
+          </li>
+          <li class="non-spaced-bullets">
+            Very decisive when ordering, she seemed like she knew exactly what she wanted and had ordered here before.
+          </li>
+          <li class="non-spaced-bullets">
+            Found item pretty quickly, and didn't hesitate much on item customization screen. Only made 2 customizations.
+          </li>
+          <li class="non-spaced-bullets">
+            Added to cart and went to checkout screen. Quickly selected No tip. Then typed in phone number smoothly,
+            although it seemed like for a second she wanted to skip the phone number part.
+          </li>
+          <li class="non-spaced-bullets">
+            Paid using Apple Pay, but phone wasn't recognizing for a few
+            seconds so user had to retry again.
+          </li>
+
+          <b style="font-size: 22px">USER 2:</b>
+          <li class="non-spaced-bullets">
+            Also no line at the counter, and user came in alone. Looked at the menu hanging on the wall to the left for
+            a few seconds, and then proceeded to the ordering screen.
+          </li>
+          <li class="non-spaced-bullets">
+            Scrolled down to the "milk tea" section, manually scrolled and didn't click on the tab at the top. User added
+            it to cart, but then removed it after looking at the customization screen.
+          </li>
+
+          <li class="non-spaced-bullets">
+            Then scrolled manually to the "fresh fruit tea" section and added a different item to cart. Hesitated
+            a bit on the customization screen.
+          </li>
+
+          <li class="non-spaced-bullets">
+            Seemed unsure about customization part, unlike user1 who was very decisive.
+          </li>
+
+          <li class="non-spaced-bullets">
+            Added to cart and went to checkout screen. Thought about tip for a second and then selected No tip.
+            Tried to skip phone number page but realized you couldn't, so then typed in phone number. Paid with Apple Pay.
+          </li>
+
+          <b style="font-size: 22px">USER 3:</b>
+          <li class="non-spaced-bullets">
+            One person was ordering at the counter, and user came in with two other friends. Talked with friends for a bit
+            then went to ordering screen.
+          </li>
+          <li class="non-spaced-bullets">
+            Slowly and manually scrolled down to the "summer special" section, clicked on an item and added it to cart.
+            Looked at a few other items while scrolling.
+          </li>
+
+          <li class="non-spaced-bullets">
+            Hesitated a bit on the customization screen and clicked multiple selections before settling on one. Was also
+            talking to friend at the same time.
+          </li>
+
+          <li class="non-spaced-bullets">
+            A bit unsure about customization part similar to user2, and not as decisive as user1.
+          </li>
+
+          <li class="non-spaced-bullets">
+            Added to cart and went to checkout screen. Thought about tip for a second and then selected $2.
+            Typed in phone number. Paid with Apple Pay, but again the card reader was a bit slow.
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="section-header">
+      <b class="section-header-text">Questions</b>
+    </div>
+    <hr>
+    <div class="section-body">
+      <ul class="non-bulleted-list">
+        <li>
+          <b>1)</b>
+          Can you describe any challenges you had, if any, while using this interface?
+        </li>
+        <ul>
+          <li>
+            Card reader with apple pay was a bit iffy.
+          </li>
+          <li>
+            Felt like there were some unnecessary pages such as phone number, tip, claim points.
+          </li>
+          <li>
+            Slightly too many "optional" customizations that they didn't want and cluttered the customization screen a bit.
+          </li>
+        </ul>
+        <li>
+          <b>2)</b>
+          What was your thought process when you walked into the store and wanted to order something?
+        </li>
+        <ul>
+          <li>
+            Probably faster to order on screen and get the order exactly right
+          </li>
+          <li>
+            Didn't feel like talking to the person at the counter who seemed busy making a drink.
+          </li>
+        </ul>
+        <li>
+          <b>3)</b>
+          How did prior experience using this interface, or the lack thereof, affect your experience using the interface?
+        </li>
+        <ul>
+          <li>
+            Used it before, definitely made it faster to use because knew what screens and buttons to expect.
+          </li>
+          <li>
+            For the one didn't use before, probably would be faster experience if familiar with beforehand.
+          </li>
+        </ul>
+        <li>
+          <b>4)</b>
+          Can you describe how the people around you affected or didn't affect how you used the interface?
+        </li>
+        <ul>
+          <li>
+            Tried not to take too long since my friend needed to order after me.
+          </li>
+          <li>
+            Didn't really care since I was alone.
+          </li>
+        </ul>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section-header">
+      <b class="section-header-text">Personas</b>
+    </div>
+    <hr>
+    <div class="section-body">
+      <div class="image-div">
+        <img src="/assets/persona1.png" alt="first persona" class="persona-images">
+        <img src="/assets/persona2.png" alt="second persona" class="persona-images">
+      </div>
+      <div class="side-by-side-bullets">
+        <ul class="personas-description">
+          <li class="non-spaced-bullets">
+            Interface has too many unnecessary screens that the user doesn't want to think about and spend time on.
+          </li>
+          <li class="non-spaced-bullets">
+            Points screen, phone number screen, etc. Customization screen has too many optional customizations that
+            make the user think longer and spend more time on that screen.
+          </li>
+          <li class="non-spaced-bullets">
+            This persona represents the users of this interface who use it because they think it is faster. The persona
+            is someone who likes to be very on schedule and not waste time on unnecessary things like waiting in line.
+            This interface is supposed to make ordering quick and easy and predictable, and one main user group is those
+            who want to order very quickly.
+          </li>
+        </ul>
+
+        <ul class="personas-description">
+          <li class="non-spaced-bullets">
+            Interface has a lot of screens, so user may worry he/she is taking too long and upset the person behind them.
+          </li>
+          <li class="non-spaced-bullets">
+            This persona represents the users of this interface who want to avoid social interaction with the cashier,
+            and just get the order done without saying anything. It also prevents miscommunication with the cashier
+            when ordering verbally. This persona is precisely that, someone who just wants to get something without
+            unnecessary talking/chaos.
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="section-header">
+        <b class="section-header-text">Storyboard</b>
+      </div>
+      <hr>
+      <div class="section-body">
+        <h3>
+          This storyboard is for the first persona, the busy college student who has a lot of meetings and things to get done
+        </h3>
+        <div class="image-div">
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-10.jpg" alt="first frame in storyboard" class="storyboard-images">
+            <p>Frame 1: User walks into the store, and sees a person ordering at the front counter.
+            Thinks for a second.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-11.jpg" alt="second frame in storyboard" class="storyboard-images">
+            <p>Frame 2: Wanting to save time, the user starts the order at the kiosk ordering screen.
+            Looks at the initial menu page and quickly scrolls down to the item user wants.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-12.jpg" alt="third frame in storyboard" class="storyboard-images">
+            <p>Frame 3: Clicks on the item, and sees the customization screen. Quickly chooses an
+            option for all the required customizations. Skips all the optional parts.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-14.jpg" alt="fourth frame in storyboard" class="storyboard-images">
+            <p>Frame 4: User checks watch, and realizes he/she has a meeting in 10 minutes!</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-13.jpg" alt="fifth frame in storyboard" class="storyboard-images">
+            <p>Frame 5: User quickly clicks add to cart, then checkout. On the checkout page, user's eyes
+            immediately go to the bottom right where the blue continue button is.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-15.jpg" alt="sixth frame in storyboard" class="storyboard-images">
+            <p>Frame 6: Tries to skip the enter phone number page but can't. Reluctantly types in phone number.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-16.jpg" alt="seventh frame in storyboard" class="storyboard-images">
+            <p>Frame 7: Keeps the default of No Tip and quickly clicks Place Order</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-17.jpg" alt="eighth frame in storyboard" class="storyboard-images">
+            <p>Frame 8: Pulls out iPhone to quickly use Apple Pay. Has to try twice before it recognizes
+            the phone.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-18.jpg" alt="ninth frame in storyboard" class="storyboard-images">
+            <p>Frame 9: User skips the claim points page and takes a seat in the store. User checks his phone
+            while waiting for the order.</p>
+          </div>
+
+          <div class="storyboard-div">
+            <img src="/assets/UIUX-19.jpg" alt="tenth frame in storyboard" class="storyboard-images">
+            <p>Frame 10: Order is ready! User quickly get the drink, grabs a straw, and walks out the door,
+            taking a sip while walking out.</p>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style="margin-bottom: 900px">
+
+  </div>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
